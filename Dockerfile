@@ -1,10 +1,10 @@
-FROM python:3.11-slim-buster
+# FROM python:3.11-slim-buster
 
-WORKDIR /app
+# WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# COPY requirements.txt .
+# RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# COPY . .
 
-CMD gunicorn app:app --workers 3 --bind 0.0.0.0:8000
+# CMD gunicorn app:app --workers 3 --bind 0.0.0.0:8000
