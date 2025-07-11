@@ -8,7 +8,7 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
 from reportlab.pdfgen import canvas
 from io import BytesIO
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__,)
 
 # Caminho base para as faturas
 FATURAS_DIR = os.path.join('coparticipacao', 'faturas')
