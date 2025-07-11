@@ -11,7 +11,8 @@ from io import BytesIO
 app = Flask(__name__,)
 
 # Caminho base para as faturas
-FATURAS_DIR = os.path.join('coparticipacao', 'faturas')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FATURAS_DIR = os.path.join(BASE_DIR, "faturas")
 
 # Funções auxiliares (as mesmas do seu script original)
 def list_sheets(file_path):
