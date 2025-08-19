@@ -1,0 +1,16 @@
+/task/
+
+/faturas/2024/*.pdf
+/faturas/2024/faturas_totais/
+/faturas/2024/*.csv
+/faturas/2024/*.ods
+
+
+/faturas/2025/*.pdf
+/faturas/2025/faturas_totais/
+/faturas/2025/*.csv
+/faturas/2025/*.ods
+
+
+.venv
+/__pycache__/
