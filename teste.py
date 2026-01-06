@@ -159,7 +159,7 @@ def generate_pdf(df, nr_funcional, mes_escolhido=None):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     meses = ["janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
-    anos = ["2024", "2025","2026"] # Adicione os anos que você tem as faturas
+    anos = [ano] # Adicione os anos que você tem as faturas
 
     if request.method == 'POST':
         mes_escolhido = request.form['mes'].strip().lower()
