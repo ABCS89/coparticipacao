@@ -11,6 +11,11 @@
 /faturas/2025/*.csv
 /faturas/2025/*.ods
 
+/faturas/2026/*.pdf
+/faturas/2026/faturas_totais/
+/faturas/2026/*.csv
+/faturas/2026/*.ods
+
 
 .venv
 /__pycache__/
